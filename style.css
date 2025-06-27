@@ -19,7 +19,7 @@ header{
     width: 100%;
     height: 20vh;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 section{
@@ -32,17 +32,17 @@ footer{
     height: 20vh;
 }
 
+h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #searchbar{
     padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
-
-h1{
-    font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input::placeholder {
