@@ -1,8 +1,8 @@
 :root{
     --primary-color: #1A3E4C;
     --sec-color: #347C98;
-    --tertiary-color: #E4F1F6;
-    --text-color: #67AFCB;
+    --text-color: #E4F1F6;
+    --tertiary-color: #67AFCB;
 }
 
 *{
@@ -12,7 +12,7 @@
 
 body{
     background-color: var(--primary-color);
-    color: var(--tertiary-color);
+    color: var(--text-color);
 }
 
 header{
@@ -23,12 +23,12 @@ header{
 }
 
 section{
-    width: 100vw;
-    height: 60vh;
+    width: 100%;
+    /* height: 60vh; */
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     height: 20vh;
 }
 
@@ -50,7 +50,7 @@ input::placeholder {
 }
 
 input:hover::placeholder{
-    color: var(--tertiary-color);
+    color: var(--text-color);
 }
 
 .search-class{
@@ -62,7 +62,10 @@ input:hover::placeholder{
 
 .search-class:hover{
     background-color: var(--sec-color);
-    color: var(--tertiary-color);
+    color: var(--text-color);
 }
 
-
+#news-container{
+    border: 2px solid red;
+    margin: 12px;
+}
